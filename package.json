@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A simple chat application using DeepSeek API",
   "main": "index.js",
-  "type": "module",  // 支持 ES 模块
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist && cp index.html dist/ && cp -r src dist/"  // 构建脚本
+    "build": "mkdir -p dist && cp index.html dist/ && cp -r src dist/"
   },
   "repository": {
     "type": "git",
