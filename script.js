@@ -1,4 +1,3 @@
-import { apiKey } from './config.js';  // 引用动态生成的配置文件
 // 格式化消息文本
 function formatMessage(text) {
     if (!text) return '';
@@ -92,6 +91,7 @@ function sendMessage() {
         loadingElement.style.display = 'block';
     }
 
+    const apiKey = 'sk-2e1fc305f7204955862b6f20b532d8b7';
     const endpoint = 'https://api.deepseek.com/chat/completions';
 
     const payload = {
